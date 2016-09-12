@@ -111,7 +111,7 @@ h4 {
 
 .section-content {
     z-index: 2;
-    margin-top: 5%;
+    margin-top: 3%;
     position: absolute;
     width: 100%;
 }
@@ -123,7 +123,7 @@ h4 {
 }
 
 .logo > #logo-home {
-    width: 30%;
+    width: 20%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -131,14 +131,14 @@ h4 {
 }
 
 .logo > #logo-ride {
-    width: 55%;
+    width: 50%;
     display: block;
     margin: auto;
     margin-bottom: 5%;
 }
 
 .logo > #logo-floor-plan {
-    width: 60%;
+    width: 50%;
     display: block;
     margin: auto;
 }
@@ -163,25 +163,24 @@ h4 {
 
 #section-ride .info {
     width: 30%;
-    height: 25%;
     border: white solid 4px;
     margin: auto;
     text-align: center;
     color: white;
-    padding-top: 2%;
-    padding-bottom: 1.5%;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
 }
 
 .info > h1 {
-    font-size: 4em;
-}
-
-.info > h2 {
     font-size: 3em;
 }
 
-.info > h3 {
+.info > h2 {
     font-size: 2em;
+}
+
+.info > h3 {
+    font-size: 1em;
 }
 
 .info > div {
@@ -190,7 +189,7 @@ h4 {
 
 #ride-info {
     color: white;
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin: 2% auto;
     width: 50%;
     padding: 0;
