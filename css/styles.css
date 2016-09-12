@@ -189,14 +189,11 @@ h4 {
 }
 
 #ride-info {
-    white-space: -moz-pre-wrap; /* Firefox */
-    white-space: -o-pre-wrap; /* Opera */
-    white-space: pre-wrap; /* Chrome */
-    word-wrap: break-word; /* IE */    
     color: white;
     font-size: 1.5em;
-    margin: 3% auto;
+    margin: 2% auto;
     width: 50%;
+    padding: 0;
 }
 
 #ride-info table {
@@ -211,13 +208,16 @@ h4 {
 }
 
 #reservation-info {
+    white-space: nowrap;
     color: black;
-    margin: 5% auto;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
     width: 50%;
 }
 
 #reservation-info table {
-    margin: 20% auto;
+    margin: 10% auto;
 }
 
 #reservation-info table td {
@@ -435,6 +435,7 @@ h4 {
         font-size: 1.7em;
     }
     #reservation-info {
+        white-space: nowrap;
         color: black;
         margin-top: 0;
         margin-left: auto;
