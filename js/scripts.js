@@ -1,4 +1,6 @@
-$(".section").height($(window).height());
+$(window).resize(function() {
+    $(".section").height($(window).height());
+});
 
 $("#arrow-home").click(function () {
     $('html, body').animate({
