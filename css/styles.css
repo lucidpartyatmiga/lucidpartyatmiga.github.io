@@ -197,6 +197,7 @@ h4 {
 
 #ride-info table {
     margin: 0 auto;
+    height: auto;
 }
 
 #reservation-number {
