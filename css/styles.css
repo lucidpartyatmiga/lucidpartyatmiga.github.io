@@ -83,7 +83,7 @@ h4 {
 }
 
 .section-left h1 {
-    font-size: 10em;
+    font-size: 8em;
     color: rgba(0, 0, 0, 0.8);
     margin-left: 5%;
 }
@@ -221,7 +221,7 @@ h4 {
 }
 
 #reservation-info table td {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 #reservation-info table p {
